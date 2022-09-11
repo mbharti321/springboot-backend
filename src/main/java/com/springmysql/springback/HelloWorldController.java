@@ -1,4 +1,4 @@
-package com.springbootbackend.springbootbackend;
+package com.springmysql.springback;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
     @GetMapping("/")
     public String helloWorld() {
-        return "Hello World! starting at http://localhost:8080";
+        return "Hello World! starting at http://localhost:8080..";
     }
 }
+
