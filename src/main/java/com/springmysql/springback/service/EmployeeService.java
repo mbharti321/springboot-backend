@@ -7,4 +7,7 @@ import com.springmysql.springback.model.Employee;
 public interface EmployeeService {
 	Employee saveEmployee(Employee employee);
 	List<Employee> getAllEmployees();
+	Employee getEmployeeById(long employeeId);
+    Employee updateEmployee(Employee employee, long employeeId);
+	void deleteEmployee(long employeeId);
 }
