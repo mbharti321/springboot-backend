@@ -8,7 +8,7 @@
 5. **deleteEmployee**: delete perticular employee object from database 
 
 ---
-### **Notes:**
+### **Self Notes:**
 - path variables- get request
     
     ```java
